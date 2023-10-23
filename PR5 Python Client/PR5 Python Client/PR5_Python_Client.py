@@ -1,69 +1,46 @@
 #-*- coding: utf-8 -*-
 
 import socket
-import hashlib
-from datetime import datetime
-from _thread import *
 import sys
-
-def con():
-    client = socket.socket()    
-
-    try:
-        client.connect((hostname, port))
-    except ConnectionError:
-        print("Невозможно установить соединение с сервером\n")
-        sys.exit()
+import threading
 
 
-def account(reg):
-
-    login = input("Введите логин:\n")
-
-    password = input("Введите пароль:\n")
-    h = hashlib.new('sha256')
-    h.update(password)
-    password = h.hexdigest()
-
-    con();
-    client.send(reg.encode())
-    client.send(login.encode())
-    client.send(password.encode())
-
-    ans = client.recv(1024)
-
-def input_tread():
+def receive_messages(client):
     while True:
-        clientInput = socket.socket()
-        try:
-            clientInput.connect((hostname, port))
-        except ConnectionError:
+        try:            
+            message = client.recv(1024).decode("utf-8")
+            print(message)
+        except:
             print("Невозможно установить соединение с сервером\n")
-            sys.exit()
+
+def send_messages(client):
+    client.send(name.encode("utf-8"))    
+
+    while True:
+        message = input()
+        client.send(message.encode("utf-8"))
+        if message == "/exit":
+            break
         
-        key = "KeY$%^Give"
-        clientInput.send(key.encode())
-        clientImput.close()
+    client.close()
 
-def output():
-    client = socket.socket()    
-
+def run_client(host, port):
+    client = socket.socket()
     try:
-        client.connect((hostname, port))
-    except ConnectionError:
+        client.connect((host, port))
+    except:
         print("Невозможно установить соединение с сервером\n")
         sys.exit()
-        
-    client.send(message.encode())
-    data = client.recv(1024)
-    print(data.decode())
-    client.close()
-    message = "<" + name + "> " + input("<Вы>")
+    
+    threading.Thread(target=receive_messages, args=(client,)).start()
+    threading.Thread(target=send_messages, args=(client,)).start()
+
     
 
 hostname = socket.gethostname()     
-port = 10666
 
 print(" _____  _____    _____    _____ _           _   \n|  __ \|  __ \  | ____|  / ____| |         | |  \n| |__) | |__) | | |__   | |    | |__   __ _| |_\n|  ___/|  _  /  |___ \  | |    | '_ \ / _` | __|\n| |    | | \ \   ___) | | |____| | | | (_| | |_\n|_|    |_|  \_\ |____/   \_____|_| |_|\__,_|\__|\n\n")
 
-name = input("Введите имя\n")
+name = "<" + input("Введите имя\n") + ">"
+
+run_client(hostname, 10666)

@@ -1,5 +1,5 @@
-('E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
- 'Server\\build\\PR5_Python_Server\\PYZ-00.pyz',
+('C:\\Users\\user\\Desktop\\Новая папка (2)\\PR6Py_AubovSergey_PR-21.102\\PR5 '
+ 'Python Server\\PR5 Python Server\\build\\PR5_Python_Server\\PYZ-00.pyz',
  [('_compat_pickle',
    'E:\\Program Files\\Python311\\Lib\\_compat_pickle.py',
    'PYMODULE'),

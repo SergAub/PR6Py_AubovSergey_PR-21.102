@@ -5,20 +5,24 @@ import threading
 
  
 def handle_client(client, address):
-    name = client.recv(1024).decode("utf-8")
-    while True:
-        message = name + "\t" + client.recv(1024).decode('utf-8')
-        if message == "/exit":
-            break
-        print(f"Получено сообщение {address[0]}:{address[1]}: {message}")
-        broadcast(message)
-
-    client.close()
-
-def broadcast(message):
-    for client in clients:
-        client.send(message.encode('utf-8'))
-
+    try:
+        name = client.recv(1024).decode()
+    
+        while True:
+            message = name + "\t" + client.recv(1024).decode()
+            if message == "/exit":
+                break
+            print(f"Получено сообщение {address[0]}:{address[1]}: {message}")
+            
+            for c in clients:
+                if c != client:
+                    c.send(message.encode())
+    except:
+        print(f"Клиент {address[0]}:{address[1]} разорвал соединение")
+    finally:
+        client.close()
+        clients.remove(client)
+    
 def run_server(host, port):
     server = socket.socket()
     server.bind((host, port))

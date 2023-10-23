@@ -8,17 +8,18 @@ import threading
 def receive_messages(client):
     while True:
         try:            
-            message = client.recv(1024).decode("utf-8")
+            message = client.recv(1024).decode()
             print(message)
         except:
             print("Невозможно установить соединение с сервером\n")
+            sys.exit()
 
 def send_messages(client):
-    client.send(name.encode("utf-8"))    
+    client.send(name.encode())    
 
     while True:
         message = input()
-        client.send(message.encode("utf-8"))
+        client.send(message.encode())
         if message == "/exit":
             break
         

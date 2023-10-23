@@ -1,17 +1,23 @@
-(['E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
-  'Server\\PR5_Python_Server.py'],
- ['E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python Server'],
+(['C:\\Users\\user\\Desktop\\Новая папка (2)\\PR6Py_AubovSergey_PR-21.102\\PR5 '
+  'Python Server\\PR5 Python Server\\PR5_Python_Server.py'],
+ ['C:\\Users\\user\\Desktop\\Новая папка (2)\\PR6Py_AubovSergey_PR-21.102\\PR5 '
+  'Python Server\\PR5 Python Server'],
  [],
- ['E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
-  'Server\\env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
-  'E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
-  'Server\\env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__',
-  'E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
-  'Server\\env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks',
-  'E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
-  'Server\\env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
-  'E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
-  'Server\\env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ ['C:\\Users\\user\\Desktop\\Новая папка (2)\\PR6Py_AubovSergey_PR-21.102\\PR5 '
+  'Python Server\\PR5 Python '
+  'Server\\env1\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'C:\\Users\\user\\Desktop\\Новая папка (2)\\PR6Py_AubovSergey_PR-21.102\\PR5 '
+  'Python Server\\PR5 Python '
+  'Server\\env1\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__',
+  'C:\\Users\\user\\Desktop\\Новая папка (2)\\PR6Py_AubovSergey_PR-21.102\\PR5 '
+  'Python Server\\PR5 Python '
+  'Server\\env1\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks',
+  'C:\\Users\\user\\Desktop\\Новая папка (2)\\PR6Py_AubovSergey_PR-21.102\\PR5 '
+  'Python Server\\PR5 Python '
+  'Server\\env1\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
+  'C:\\Users\\user\\Desktop\\Новая папка (2)\\PR6Py_AubovSergey_PR-21.102\\PR5 '
+  'Python Server\\PR5 Python '
+  'Server\\env1\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
  {},
  [],
  [],
@@ -22,11 +28,13 @@
  '3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit '
  '(AMD64)]',
  [('pyi_rth_inspect',
-   'E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
-   'Server\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'C:\\Users\\user\\Desktop\\Новая папка '
+   '(2)\\PR6Py_AubovSergey_PR-21.102\\PR5 Python Server\\PR5 Python '
+   'Server\\env1\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('PR5_Python_Server',
-   'E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
+   'C:\\Users\\user\\Desktop\\Новая папка '
+   '(2)\\PR6Py_AubovSergey_PR-21.102\\PR5 Python Server\\PR5 Python '
    'Server\\PR5_Python_Server.py',
    'PYSOURCE')],
  [('inspect', 'E:\\Program Files\\Python311\\Lib\\inspect.py', 'PYMODULE'),
@@ -61,6 +69,7 @@
   ('tempfile', 'E:\\Program Files\\Python311\\Lib\\tempfile.py', 'PYMODULE'),
   ('random', 'E:\\Program Files\\Python311\\Lib\\random.py', 'PYMODULE'),
   ('_strptime', 'E:\\Program Files\\Python311\\Lib\\_strptime.py', 'PYMODULE'),
+  ('datetime', 'E:\\Program Files\\Python311\\Lib\\datetime.py', 'PYMODULE'),
   ('calendar', 'E:\\Program Files\\Python311\\Lib\\calendar.py', 'PYMODULE'),
   ('statistics',
    'E:\\Program Files\\Python311\\Lib\\statistics.py',
@@ -74,6 +83,21 @@
    'PYMODULE'),
   ('fractions', 'E:\\Program Files\\Python311\\Lib\\fractions.py', 'PYMODULE'),
   ('numbers', 'E:\\Program Files\\Python311\\Lib\\numbers.py', 'PYMODULE'),
+  ('hashlib', 'E:\\Program Files\\Python311\\Lib\\hashlib.py', 'PYMODULE'),
+  ('logging',
+   'E:\\Program Files\\Python311\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle', 'E:\\Program Files\\Python311\\Lib\\pickle.py', 'PYMODULE'),
+  ('pprint', 'E:\\Program Files\\Python311\\Lib\\pprint.py', 'PYMODULE'),
+  ('dataclasses',
+   'E:\\Program Files\\Python311\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('copy', 'E:\\Program Files\\Python311\\Lib\\copy.py', 'PYMODULE'),
+  ('_compat_pickle',
+   'E:\\Program Files\\Python311\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('struct', 'E:\\Program Files\\Python311\\Lib\\struct.py', 'PYMODULE'),
+  ('string', 'E:\\Program Files\\Python311\\Lib\\string.py', 'PYMODULE'),
   ('bisect', 'E:\\Program Files\\Python311\\Lib\\bisect.py', 'PYMODULE'),
   ('shutil', 'E:\\Program Files\\Python311\\Lib\\shutil.py', 'PYMODULE'),
   ('tarfile', 'E:\\Program Files\\Python311\\Lib\\tarfile.py', 'PYMODULE'),
@@ -81,8 +105,6 @@
   ('_compression',
    'E:\\Program Files\\Python311\\Lib\\_compression.py',
    'PYMODULE'),
-  ('copy', 'E:\\Program Files\\Python311\\Lib\\copy.py', 'PYMODULE'),
-  ('struct', 'E:\\Program Files\\Python311\\Lib\\struct.py', 'PYMODULE'),
   ('lzma', 'E:\\Program Files\\Python311\\Lib\\lzma.py', 'PYMODULE'),
   ('bz2', 'E:\\Program Files\\Python311\\Lib\\bz2.py', 'PYMODULE'),
   ('fnmatch', 'E:\\Program Files\\Python311\\Lib\\fnmatch.py', 'PYMODULE'),
@@ -122,7 +144,6 @@
   ('email.quoprimime',
    'E:\\Program Files\\Python311\\Lib\\email\\quoprimime.py',
    'PYMODULE'),
-  ('string', 'E:\\Program Files\\Python311\\Lib\\string.py', 'PYMODULE'),
   ('email.headerregistry',
    'E:\\Program Files\\Python311\\Lib\\email\\headerregistry.py',
    'PYMODULE'),
@@ -178,10 +199,6 @@
   ('py_compile',
    'E:\\Program Files\\Python311\\Lib\\py_compile.py',
    'PYMODULE'),
-  ('threading', 'E:\\Program Files\\Python311\\Lib\\threading.py', 'PYMODULE'),
-  ('_threading_local',
-   'E:\\Program Files\\Python311\\Lib\\_threading_local.py',
-   'PYMODULE'),
   ('importlib.util',
    'E:\\Program Files\\Python311\\Lib\\importlib\\util.py',
    'PYMODULE'),
@@ -217,35 +234,29 @@
   ('dis', 'E:\\Program Files\\Python311\\Lib\\dis.py', 'PYMODULE'),
   ('opcode', 'E:\\Program Files\\Python311\\Lib\\opcode.py', 'PYMODULE'),
   ('ast', 'E:\\Program Files\\Python311\\Lib\\ast.py', 'PYMODULE'),
-  ('tracemalloc',
-   'E:\\Program Files\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('pickle', 'E:\\Program Files\\Python311\\Lib\\pickle.py', 'PYMODULE'),
-  ('pprint', 'E:\\Program Files\\Python311\\Lib\\pprint.py', 'PYMODULE'),
-  ('dataclasses',
-   'E:\\Program Files\\Python311\\Lib\\dataclasses.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'E:\\Program Files\\Python311\\Lib\\_compat_pickle.py',
-   'PYMODULE'),
   ('stringprep',
    'E:\\Program Files\\Python311\\Lib\\stringprep.py',
    'PYMODULE'),
   ('_py_abc', 'E:\\Program Files\\Python311\\Lib\\_py_abc.py', 'PYMODULE'),
+  ('tracemalloc',
+   'E:\\Program Files\\Python311\\Lib\\tracemalloc.py',
+   'PYMODULE'),
   ('subprocess',
    'E:\\Program Files\\Python311\\Lib\\subprocess.py',
    'PYMODULE'),
   ('selectors', 'E:\\Program Files\\Python311\\Lib\\selectors.py', 'PYMODULE'),
   ('signal', 'E:\\Program Files\\Python311\\Lib\\signal.py', 'PYMODULE'),
-  ('datetime', 'E:\\Program Files\\Python311\\Lib\\datetime.py', 'PYMODULE'),
-  ('hashlib', 'E:\\Program Files\\Python311\\Lib\\hashlib.py', 'PYMODULE'),
-  ('logging',
-   'E:\\Program Files\\Python311\\Lib\\logging\\__init__.py',
+  ('threading', 'E:\\Program Files\\Python311\\Lib\\threading.py', 'PYMODULE'),
+  ('_threading_local',
+   'E:\\Program Files\\Python311\\Lib\\_threading_local.py',
    'PYMODULE'),
   ('socket', 'E:\\Program Files\\Python311\\Lib\\socket.py', 'PYMODULE')],
  [('python311.dll', 'E:\\Program Files\\Python311\\python311.dll', 'BINARY'),
   ('_decimal.pyd',
    'E:\\Program Files\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'E:\\Program Files\\Python311\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
   ('_lzma.pyd', 'E:\\Program Files\\Python311\\DLLs\\_lzma.pyd', 'EXTENSION'),
   ('_bz2.pyd', 'E:\\Program Files\\Python311\\DLLs\\_bz2.pyd', 'EXTENSION'),
@@ -253,9 +264,6 @@
    'E:\\Program Files\\Python311\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('select.pyd', 'E:\\Program Files\\Python311\\DLLs\\select.pyd', 'EXTENSION'),
-  ('_hashlib.pyd',
-   'E:\\Program Files\\Python311\\DLLs\\_hashlib.pyd',
-   'EXTENSION'),
   ('_socket.pyd',
    'E:\\Program Files\\Python311\\DLLs\\_socket.pyd',
    'EXTENSION'),
@@ -267,48 +275,48 @@
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
+  ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
-  ('VCRUNTIME140.dll',
-   'E:\\Program Files\\Python311\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
+  ('api-ms-win-crt-process-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
+  ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'E:\\Program Files\\Python311\\VCRUNTIME140.dll',
    'BINARY'),
   ('libcrypto-3.dll',
    'E:\\Program Files\\Python311\\DLLs\\libcrypto-3.dll',
@@ -320,61 +328,13 @@
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-processenvironment-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
+  ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program '
@@ -384,25 +344,29 @@
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
+  ('api-ms-win-core-memory-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
+  ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
+  ('api-ms-win-core-datetime-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
+  ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program '
@@ -412,17 +376,62 @@
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program '
    'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
    'BINARY')],
  [],
  [],
  [('base_library.zip',
-   'E:\\Users\\user\\source\\repos\\PR5 Python Server\\PR5 Python '
+   'C:\\Users\\user\\Desktop\\Новая папка '
+   '(2)\\PR6Py_AubovSergey_PR-21.102\\PR5 Python Server\\PR5 Python '
    'Server\\build\\PR5_Python_Server\\base_library.zip',
    'DATA')])
